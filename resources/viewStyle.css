@@ -1,0 +1,105 @@
+/*
+Stylesheet to make the view look good.
+
+Authors: Tom Choi, Kiya Govek, Ryan Gorey, Kiran Tomlinson
+*/
+
+@font-face{
+    font-family: 'Metal Macabre';
+    src: url('MetalMacabre.ttf');
+}
+
+.label {
+    -fx-font-family: "Metal Macabre";
+    -fx-text-fill: indigo;
+}
+
+.button {
+    -fx-text-fill: gold;
+
+    -fx-background-color: indigo;
+    -fx-padding: -25 0 -20 0;
+    -fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.7), 6, 0.0, 0, 2);
+}
+
+.button:hover {
+    -fx-cursor: hand;
+    -fx-opacity: 0.75;
+}
+
+.progress-bar {
+    -fx-text-box-border: gold;
+    -fx-accent: indigo;
+}
+
+#game-interface {
+    -fx-background-color: rgb(255, 255, 255);
+}
+
+#menu {
+    -fx-font-size: 40;
+    -fx-font-family: serif;
+}
+
+#title {
+    -fx-font-size: 6em;
+    -fx-font-family: "Metal Macabre";
+    -fx-effect: innershadow(gaussian, rgba(0,0,0,0.7), 6, 0.0, 0, 2);
+    -fx-padding: 0 0 -100 0;
+    -fx-max-height: 10em;
+}
+
+#score {
+    -fx-font-size: 72;
+    -fx-font-weight: bold;
+    -fx-font-family: serif;
+    -fx-text-alignment: right;
+}
+
+#timer {
+    -fx-font-size: 32;
+}
+
+#menu-page-button{
+    -fx-font-size: 24;
+    -fx-font-family: "Metal Macabre";
+}
+
+#menu-page-name {
+    -fx-font-size: 50;
+    -fx-padding: -100 0 -70 0;
+}
+
+#pause-label {
+    -fx-font-size: 42;
+    -fx-wrap-text: true;
+}
+
+#rune-grid-pane {
+    -fx-hgap: 5;
+    -fx-vgap: 5;
+}
+
+#clock-label {
+    -fx-font-size: 72;
+    -fx-font-weight: bold;
+    -fx-font-family: serif;
+}
+
+#rune-label {
+    -fx-border-color: transparent;
+    -fx-border-width: 2;
+}
+
+#final-score-label {
+    -fx-font-size: 72;
+}
+
+#long-text-label {
+    -fx-font-family: serif;
+    -fx-font-size: 35;
+}
+
+#shuffle-label {
+    -fx-font-size: 72;
+}
